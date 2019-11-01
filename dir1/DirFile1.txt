@@ -1,1 +1,2 @@
 First file in the Dir1 directory
+1	new line
