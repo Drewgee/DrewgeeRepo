@@ -1,2 +1,3 @@
 First file in the Dir1 directory
-1	new line
+1	old line
+2	new line
