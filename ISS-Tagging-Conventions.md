@@ -1,14 +1,14 @@
 # Tagging Convention
-A configuration manager or administrator may tag for a baseline or milestone using git to emphasize a significant event. below are the naming convention for all vsa GitHub repositories.
+A configuration manager or administrator may tag for a baseline or milestone using git to emphasize a significant event. below are the naming convention for all ISS GitHub repositories.
 ## Baseline Tag
 
-**Naming convention**: vsa-rel-**\<version number>**
+**Naming convention**: ISS-rel-**\<version number>**
 
 **Tag command:**
-git tag -a vsa-rel-**\<release>** -m "\<long description> + \<JIRA merge task number>"
+git tag -a ISS-rel-**\<release>** -m "\<long description> + \<JIRA merge task number>"
 
 Example:
-`git tag -a vsa-rel-2.5.0 -m "Baseline release for 2.5.0, vsapi-897"`
+`git tag -a ISS-rel-2.5.0 -m "Baseline release for 2.5.0, ISS-897"`
 
 
 ## Milestone Tag
@@ -34,4 +34,4 @@ Release branch. **Tag Template**:
 **Tag command:**
 git tag -a **\<branch>**-**\<release>**-**\<environment>**-**\<iteration>** -m "\<long description> + \<JIRA merge task number>"
 
-Example: `git tag -a develop-2.5.0-sqa-2 -m "share the release branch 2.5.0 wip code vsapi-850"`
+Example: `git tag -a develop-2.5.0-sqa-2 -m "share the release branch 2.5.0 wip code ISS-850"`
