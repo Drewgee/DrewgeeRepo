@@ -1,5 +1,5 @@
 # Tagging Convention
-A configuration manager or administrator may tag for a baseline or milestone using git to emphasize a significant event. below are the naming convention for all ISS GitHub repositories.
+A configuration manager or administrator may tag for a baseline or milestone using git to emphasize a significant event. Below are the naming convention for all ISS GitHub repositories.
 ## Baseline Tag
 
 **Naming convention**: ISS-rel-**\<version number>**
