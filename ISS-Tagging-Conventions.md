@@ -19,7 +19,7 @@ Branches, except for release and main follow the below naming convention.
 
         **\<branch>**-**\<release>**-**\<environment>**-**\<iteration>**
 
-Release branch. **Tag Template**:
+Release branch. When the release branch includes the release number **Tag Template**:
 
         **\<branch>**-**\<environment>**-**\<iteration>**
 
